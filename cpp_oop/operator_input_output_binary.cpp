@@ -61,7 +61,7 @@ ostream& operator<<(ostream &out,binary er){
 }
 int main(){
     binary h(1,2),g(2,3),c;
-/*    c=h+g;
+    c=h+g;
     cout<<"===========\n"<<endl;
     c.print();
     cout<<"\n===========\n"<<endl;
@@ -71,7 +71,7 @@ int main(){
     c=10+h;
     c.print();
     cout<<"\n===========\n"<<endl;
-*/
+
     cin>>c;
     cout<<c;
 
